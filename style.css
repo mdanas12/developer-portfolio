@@ -4,14 +4,14 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .banner {
     color: blue;
 }
 
-section {
+.road-map {
     display: flex;
     margin-bottom: 140px;
 }
@@ -44,4 +44,30 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.experience-area {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.div-item {
+    box-shadow: 10px 11px 40px blueviolet;
+    border-radius: 9px;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#side-block {
+    border-left: 8px solid blue;
+}
+
+#name-block {
+    border-left: 8px solid blueviolet;
+}
+
+footer {
+    text-align: center;
 }
