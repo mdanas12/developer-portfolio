@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.banner {
+    color: blue;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 4%;
+}
+
+.half-width img {
+    width: 85%;
+}
+
+.click-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, blue, yellow);
+    color: white;
+    font-weight: 550;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(tbanner.png);
+    background-repeat: no-repeat;
+}
